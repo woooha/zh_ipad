@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98922C4A1908B0360034773D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98922C491908B0360034773D /* Foundation.framework */; };
+		98922C4C1908B0360034773D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98922C4B1908B0360034773D /* CoreGraphics.framework */; };
+		98922C4E1908B0360034773D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98922C4D1908B0360034773D /* UIKit.framework */; };
+		98922C541908B0360034773D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98922C521908B0360034773D /* InfoPlist.strings */; };
+		98922C561908B0360034773D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98922C551908B0360034773D /* main.m */; };
+		98922C5A1908B0360034773D /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98922C591908B0360034773D /* WHAppDelegate.m */; };
+		98922C5D1908B0360034773D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98922C5B1908B0360034773D /* Main.storyboard */; };
+		98922C601908B0360034773D /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98922C5F1908B0360034773D /* WHViewController.m */; };
+		98922C621908B0360034773D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98922C611908B0360034773D /* Images.xcassets */; };
+		98922C691908B0360034773D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98922C681908B0360034773D /* XCTest.framework */; };
+		98922C6A1908B0360034773D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98922C491908B0360034773D /* Foundation.framework */; };
+		98922C6B1908B0360034773D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98922C4D1908B0360034773D /* UIKit.framework */; };
+		98922C731908B0360034773D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98922C711908B0360034773D /* InfoPlist.strings */; };
+		98922C751908B0360034773D /* Zhihu_for_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98922C741908B0360034773D /* Zhihu_for_iPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98922C6C1908B0360034773D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98922C3E1908B0360034773D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98922C451908B0360034773D;
+			remoteInfo = "Zhihu for iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98922C461908B0360034773D /* Zhihu for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zhihu for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98922C491908B0360034773D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98922C4B1908B0360034773D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98922C4D1908B0360034773D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98922C511908B0360034773D /* Zhihu for iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zhihu for iPad-Info.plist"; sourceTree = "<group>"; };
+		98922C531908B0360034773D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98922C551908B0360034773D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98922C571908B0360034773D /* Zhihu for iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zhihu for iPad-Prefix.pch"; sourceTree = "<group>"; };
+		98922C581908B0360034773D /* WHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
+		98922C591908B0360034773D /* WHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
+		98922C5C1908B0360034773D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98922C5E1908B0360034773D /* WHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
+		98922C5F1908B0360034773D /* WHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
+		98922C611908B0360034773D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98922C671908B0360034773D /* Zhihu for iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhihu for iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98922C681908B0360034773D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98922C701908B0360034773D /* Zhihu for iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zhihu for iPadTests-Info.plist"; sourceTree = "<group>"; };
+		98922C721908B0360034773D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98922C741908B0360034773D /* Zhihu_for_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zhihu_for_iPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98922C431908B0360034773D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922C4C1908B0360034773D /* CoreGraphics.framework in Frameworks */,
+				98922C4E1908B0360034773D /* UIKit.framework in Frameworks */,
+				98922C4A1908B0360034773D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98922C641908B0360034773D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922C691908B0360034773D /* XCTest.framework in Frameworks */,
+				98922C6B1908B0360034773D /* UIKit.framework in Frameworks */,
+				98922C6A1908B0360034773D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98922C3D1908B0360034773D = {
+			isa = PBXGroup;
+			children = (
+				98922C4F1908B0360034773D /* Zhihu for iPad */,
+				98922C6E1908B0360034773D /* Zhihu for iPadTests */,
+				98922C481908B0360034773D /* Frameworks */,
+				98922C471908B0360034773D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98922C471908B0360034773D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98922C461908B0360034773D /* Zhihu for iPad.app */,
+				98922C671908B0360034773D /* Zhihu for iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98922C481908B0360034773D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98922C491908B0360034773D /* Foundation.framework */,
+				98922C4B1908B0360034773D /* CoreGraphics.framework */,
+				98922C4D1908B0360034773D /* UIKit.framework */,
+				98922C681908B0360034773D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98922C4F1908B0360034773D /* Zhihu for iPad */ = {
+			isa = PBXGroup;
+			children = (
+				98922C581908B0360034773D /* WHAppDelegate.h */,
+				98922C591908B0360034773D /* WHAppDelegate.m */,
+				98922C5B1908B0360034773D /* Main.storyboard */,
+				98922C5E1908B0360034773D /* WHViewController.h */,
+				98922C5F1908B0360034773D /* WHViewController.m */,
+				98922C611908B0360034773D /* Images.xcassets */,
+				98922C501908B0360034773D /* Supporting Files */,
+			);
+			path = "Zhihu for iPad";
+			sourceTree = "<group>";
+		};
+		98922C501908B0360034773D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98922C511908B0360034773D /* Zhihu for iPad-Info.plist */,
+				98922C521908B0360034773D /* InfoPlist.strings */,
+				98922C551908B0360034773D /* main.m */,
+				98922C571908B0360034773D /* Zhihu for iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98922C6E1908B0360034773D /* Zhihu for iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				98922C741908B0360034773D /* Zhihu_for_iPadTests.m */,
+				98922C6F1908B0360034773D /* Supporting Files */,
+			);
+			path = "Zhihu for iPadTests";
+			sourceTree = "<group>";
+		};
+		98922C6F1908B0360034773D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98922C701908B0360034773D /* Zhihu for iPadTests-Info.plist */,
+				98922C711908B0360034773D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98922C451908B0360034773D /* Zhihu for iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98922C781908B0370034773D /* Build configuration list for PBXNativeTarget "Zhihu for iPad" */;
+			buildPhases = (
+				98922C421908B0360034773D /* Sources */,
+				98922C431908B0360034773D /* Frameworks */,
+				98922C441908B0360034773D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zhihu for iPad";
+			productName = "Zhihu for iPad";
+			productReference = 98922C461908B0360034773D /* Zhihu for iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98922C661908B0360034773D /* Zhihu for iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98922C7B1908B0370034773D /* Build configuration list for PBXNativeTarget "Zhihu for iPadTests" */;
+			buildPhases = (
+				98922C631908B0360034773D /* Sources */,
+				98922C641908B0360034773D /* Frameworks */,
+				98922C651908B0360034773D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98922C6D1908B0360034773D /* PBXTargetDependency */,
+			);
+			name = "Zhihu for iPadTests";
+			productName = "Zhihu for iPadTests";
+			productReference = 98922C671908B0360034773D /* Zhihu for iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98922C3E1908B0360034773D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CS193p;
+				TargetAttributes = {
+					98922C661908B0360034773D = {
+						TestTargetID = 98922C451908B0360034773D;
+					};
+				};
+			};
+			buildConfigurationList = 98922C411908B0360034773D /* Build configuration list for PBXProject "Zhihu for iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98922C3D1908B0360034773D;
+			productRefGroup = 98922C471908B0360034773D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98922C451908B0360034773D /* Zhihu for iPad */,
+				98922C661908B0360034773D /* Zhihu for iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98922C441908B0360034773D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922C621908B0360034773D /* Images.xcassets in Resources */,
+				98922C541908B0360034773D /* InfoPlist.strings in Resources */,
+				98922C5D1908B0360034773D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98922C651908B0360034773D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922C731908B0360034773D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98922C421908B0360034773D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922C601908B0360034773D /* WHViewController.m in Sources */,
+				98922C561908B0360034773D /* main.m in Sources */,
+				98922C5A1908B0360034773D /* WHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98922C631908B0360034773D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98922C751908B0360034773D /* Zhihu_for_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98922C6D1908B0360034773D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98922C451908B0360034773D /* Zhihu for iPad */;
+			targetProxy = 98922C6C1908B0360034773D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98922C521908B0360034773D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98922C531908B0360034773D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98922C5B1908B0360034773D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98922C5C1908B0360034773D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98922C711908B0360034773D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98922C721908B0360034773D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98922C761908B0370034773D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		98922C771908B0370034773D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98922C791908B0370034773D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zhihu for iPad/Zhihu for iPad-Prefix.pch";
+				INFOPLIST_FILE = "Zhihu for iPad/Zhihu for iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98922C7A1908B0370034773D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zhihu for iPad/Zhihu for iPad-Prefix.pch";
+				INFOPLIST_FILE = "Zhihu for iPad/Zhihu for iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98922C7C1908B0370034773D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zhihu for iPad.app/Zhihu for iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zhihu for iPad/Zhihu for iPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zhihu for iPadTests/Zhihu for iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		98922C7D1908B0370034773D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zhihu for iPad.app/Zhihu for iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zhihu for iPad/Zhihu for iPad-Prefix.pch";
+				INFOPLIST_FILE = "Zhihu for iPadTests/Zhihu for iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98922C411908B0360034773D /* Build configuration list for PBXProject "Zhihu for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98922C761908B0370034773D /* Debug */,
+				98922C771908B0370034773D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98922C781908B0370034773D /* Build configuration list for PBXNativeTarget "Zhihu for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98922C791908B0370034773D /* Debug */,
+				98922C7A1908B0370034773D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98922C7B1908B0370034773D /* Build configuration list for PBXNativeTarget "Zhihu for iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98922C7C1908B0370034773D /* Debug */,
+				98922C7D1908B0370034773D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98922C3E1908B0360034773D /* Project object */;
+}
