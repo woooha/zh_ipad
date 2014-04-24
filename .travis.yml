@@ -1,2 +1,3 @@
 language: objective-c
 xcode_project: "Zhihu for iPad/Zhihu for iPad.xcodeproj" 
+xcode_scheme: "Zhihu for iPad"
